@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Metaphone
-Summary:	Text::Metaphone perl module
-Summary(pl):	Modu³ perla Text::Metaphone
+Summary:	Text::Metaphone - A modern soundex. Phonetic encoding of words.
 Name:		perl-Text-Metaphone
 Version:	1.96
 Release:	7
@@ -14,10 +13,10 @@ BuildRequires:	perl >= 5.6
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Text::Metaphone perl module.
-
-%description -l pl
-Modu³ perla Text::Metaphone.
+C<Metaphone()> is a function whereby a string/word is broken down into a
+rough approximation of its english phonetic pronunciation.  Very similar
+in concept and purpose to soundex, but much more comprehensive in its
+approach.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
