@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Metaphone
-%include	/usr/lib/rpm/macros.perl
 Summary:	Text-Metaphone perl module
 Summary(pl):	Modu³ perla Text-Metaphone
 Name:		perl-Text-Metaphone
 Version:	1.96
-Release:	6
-
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -21,7 +20,7 @@ Text-Metaphone perl module.
 Modu³ perla Text-Metaphone.
 
 %prep
-%setup -q -n Text-Metaphone-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
