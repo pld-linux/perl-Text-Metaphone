@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Text
 %define	pnam	Metaphone
-Summary:	Text::Metaphone - A modern soundex, phonetic encoding of words
+Summary:	Text::Metaphone - a modern soundex, phonetic encoding of words
 Summary(pl):	Text::Metaphone - wspó³czesny soundex, fonetyczne kodowanie s³ów
 Name:		perl-Text-Metaphone
 Version:	1.96
