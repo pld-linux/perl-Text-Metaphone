@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Text
-%define	pnam	Metaphone
+%define		pdir	Text
+%define		pnam	Metaphone
 Summary:	Text::Metaphone - a modern soundex, phonetic encoding of words
 Summary(pl):	Text::Metaphone - wspó³czesny soundex, fonetyczne kodowanie s³ów
 Name:		perl-Text-Metaphone
