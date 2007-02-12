@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Metaphone
 Summary:	Text::Metaphone - a modern soundex, phonetic encoding of words
-Summary(pl):	Text::Metaphone - wspÛ≥czesny soundex, fonetyczne kodowanie s≥Ûw
+Summary(pl.UTF-8):   Text::Metaphone - wsp√≥≈Çczesny soundex, fonetyczne kodowanie s≈Ç√≥w
 Name:		perl-Text-Metaphone
 Version:	1.96
 Release:	11
@@ -25,11 +25,11 @@ rough approximation of its English phonetic pronunciation. Very
 similar in concept and purpose to soundex, but much more comprehensive
 in its approach.
 
-%description -l pl
-Mataphone() jest funkcj±, w ktÛrej ≥aÒcuch lub s≥owo jest ≥amane na
-zgrubne przybliøenie jego angielskiej wymowy. Modu≥ jest bardzo
-podobny w za≥oøeniach i celu do soundeksa, ale jest duøo rozleglejszym
-podej∂ciem.
+%description -l pl.UTF-8
+Mataphone() jest funkcjƒÖ, w kt√≥rej ≈Ça≈Ñcuch lub s≈Çowo jest ≈Çamane na
+zgrubne przybli≈ºenie jego angielskiej wymowy. Modu≈Ç jest bardzo
+podobny w za≈Ço≈ºeniach i celu do soundeksa, ale jest du≈ºo rozleglejszym
+podej≈õciem.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
