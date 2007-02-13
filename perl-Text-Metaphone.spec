@@ -6,7 +6,7 @@
 %define		pdir	Text
 %define		pnam	Metaphone
 Summary:	Text::Metaphone - a modern soundex, phonetic encoding of words
-Summary(pl.UTF-8):   Text::Metaphone - współczesny soundex, fonetyczne kodowanie słów
+Summary(pl.UTF-8):	Text::Metaphone - współczesny soundex, fonetyczne kodowanie słów
 Name:		perl-Text-Metaphone
 Version:	1.96
 Release:	11
