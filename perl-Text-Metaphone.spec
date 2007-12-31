@@ -8,13 +8,13 @@
 Summary:	Text::Metaphone - a modern soundex, phonetic encoding of words
 Summary(pl.UTF-8):	Text::Metaphone - współczesny soundex, fonetyczne kodowanie słów
 Name:		perl-Text-Metaphone
-Version:	1.96
-Release:	11
+Version:	2.00
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b918985b2364b8d3a5bd0b0ba714ebd0
+# Source0-md5:	0cccbb9481cd987e12da0b75697ee43a
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
